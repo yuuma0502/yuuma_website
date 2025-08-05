@@ -1,0 +1,108 @@
+
+body{
+    background: rgb(198, 247, 4);
+}
+h2{
+    color: rgb(240, 4, 224);
+}
+.contact-us{
+    width: 450px;
+    background:#1bd3c1;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+}
+.social-icon{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    display: flex;
+}
+.social-icon div{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   position: relative;
+   cursor: pointer;
+   margin-right: 15px;
+}
+.social-icon div a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(240, 236, 7);
+    font-size: 13px;
+}
+ .social-icon div.home{
+ background: #24c41b;
+}
+ .social-icon div.research{
+ background: #e30b36;
+}
+ .social-icon div.contact{
+ background: #ef1ac1;
+}
+ img:hover{
+     opacity: 0.5;
+     cursor: pointer;
+}
+ img{
+ border-radius: 20%;
+}  
+ .form, .form-item{
+     top: 20px;
+     width: 100%;
+}
+ .form-item .input{
+    width: 100%;
+    margin-bottom: 10px;    
+    border-radius: 30px;
+    border: none;
+    padding: 25px 40px;
+    box-sizing: border-box;
+    background: rgb(238, 237, 234);    
+}
+.form-item{
+    position: relative;
+}
+.form-item .fas{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+.btn{
+    text-align: center;
+    width: 95%;
+    background: #a2757a;
+    border-radius: 20px;
+    padding: 10px 6px;
+    color: #f8faf0;
+    cursor: pointer;
+    margin: 10px;  
+}
+.sidebar {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #20abe6;
+    padding-top: 20px;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #4e1eec;
+}
+.main-content {
+    margin-left: 210px;
+    padding: 20px;
+}                            
